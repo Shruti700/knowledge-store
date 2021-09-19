@@ -1,2 +1,2 @@
 # knowledge-store
-no two persons ever read the same book
+Uniquely yours, because no two persons ever read the same book.
