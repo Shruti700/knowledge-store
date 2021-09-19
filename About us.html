@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-wid, initial-scale=1.0">
+    <title> Website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Book-Cover/book logo.png"></a>
+            <h3>Knowledge Store </h3>
+
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="signup.html">Subscribe</a></li>
+                    <li><a href="collection.html">Collection</a></li>
+                    <li><a href="About us.html">About Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+    <section class='about'>
+        <p>Knowledge Store is an online platform showing kinds of genres and corresponding famous books.
+            <br> Our mission is to share wisdom on a free platform. 
+            <br>We brings together the best of the written word to help readers become their best selves.
+            <br>Since, curiosity and education extents beyond financial boundaries.</p>
+    </section>
+    <section class="footer">
+        <h4>More Details</h4>
+        <p> This is a sample project on online book store.<br> Find variety of novels and books to quench your thirst of
+            reading.<br>
+            Get connected with us here.</p>
+        <div class='icons'>
+            <i class=" fa fa-facebook"></i>
+            <i class=" fa fa-instagram"></i>
+            <i class=" fa fa-linkedin"></i>
+            <i class=" fa fa-twitter"></i>
+        </div>
+
+    </section>
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu() {
+            navlinks.style.right = '0';
+        }
+        function hidemenu() {
+            navlinks.style.right = '-200px';
+        }
+    </script>
+</body>
+
+</html>
